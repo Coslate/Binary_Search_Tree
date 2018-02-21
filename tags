@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BST	./include/binary_search_tree.h	/^        BST() : root(NULL), size_of_tree(0){};$/;"	f	class:BST
+BST	./include/binary_search_tree.h	/^class BST{$/;"	c
+BSTNode	./include/binary_search_tree.h	/^        BSTNode() : key(0), parent(NULL), left_child(NULL), right_child(NULL){};$/;"	f	class:BSTNode
+BSTNode	./include/binary_search_tree.h	/^        BSTNode(const int value) : key(value), parent(NULL), left_child(NULL), right_child(NULL){};$/;"	f	class:BSTNode
+BSTNode	./include/binary_search_tree.h	/^class BSTNode{$/;"	c
+CC	./Makefile	/^CC = g++$/;"	m
+CFLAGS	./Makefile	/^CFLAGS = -g -Wall -O3 $/;"	m
+COMPILE_FLAGS	./Makefile	/^COMPILE_FLAGS = -c$/;"	m
+CTAGS_UTIL	./Makefile	/^CTAGS_UTIL = \/usr\/local\/bin\/$/;"	m
+CleanAll	./binary_search_tree.cpp	/^void BST::CleanAll(){$/;"	f	class:BST
+ConstructBSTUsingSorting	./binary_search_tree.cpp	/^void BST::ConstructBSTUsingSorting(const int* const L, const int size){$/;"	f	class:BST
+DeleteArbitrary	./binary_search_tree.cpp	/^void BST::DeleteArbitrary(const int key){$/;"	f	class:BST
+FindInOrderPreDecessor	./binary_search_tree.cpp	/^BSTNode* BST::FindInOrderPreDecessor(BSTNode* current_node){$/;"	f	class:BST
+FindInOrderSuccessor	./binary_search_tree.cpp	/^BSTNode* BST::FindInOrderSuccessor(BSTNode* current_node){$/;"	f	class:BST
+GetTreeSize	./binary_search_tree.cpp	/^int BST::GetTreeSize(){$/;"	f	class:BST
+INCLUDE_FILES	./Makefile	/^INCLUDE_FILES = .\/include$/;"	m
+INCLUDE_FLAGS	./Makefile	/^INCLUDE_FLAGS = -I $(INCLUDE_FILES)$/;"	m
+InOrderTraverseEngine	./binary_search_tree.cpp	/^void BST::InOrderTraverseEngine(BSTNode* current_node){$/;"	f	class:BST
+InOrderTraversePrint	./binary_search_tree.cpp	/^void BST::InOrderTraversePrint(){$/;"	f	class:BST
+InOrderTraverseSetEngine	./binary_search_tree.cpp	/^void BST::InOrderTraverseSetEngine(BSTNode* current_node, int &set_index, const int* const L){$/;"	f	class:BST
+InsertArbitrary	./binary_search_tree.cpp	/^void BST::InsertArbitrary(const int key){$/;"	f	class:BST
+LevelOrderTraversePrint	./binary_search_tree.cpp	/^void BST::LevelOrderTraversePrint(){$/;"	f	class:BST
+MAIN_OBJECT_EXEC	./Makefile	/^MAIN_OBJECT_EXEC = $(MAIN_OBJECT_NAME).o$/;"	m
+MAIN_OBJECT_EXEC_MAIN	./Makefile	/^MAIN_OBJECT_EXEC_MAIN = $(MAIN_OBJECT_NAME_MAIN).o$/;"	m
+MAIN_OBJECT_EXEC_OUTPUT	./Makefile	/^MAIN_OBJECT_EXEC_OUTPUT = ..\/exec_output\/$/;"	m
+MAIN_OBJECT_NAME	./Makefile	/^MAIN_OBJECT_NAME = binary_search_tree$/;"	m
+MAIN_OBJECT_NAME_MAIN	./Makefile	/^MAIN_OBJECT_NAME_MAIN = binary_search_tree_main$/;"	m
+MAIN_OBJECT_SOURCE	./Makefile	/^MAIN_OBJECT_SOURCE = $(MAIN_OBJECT_NAME).cpp$/;"	m
+MAIN_OBJECT_SOURCE_MAIN	./Makefile	/^MAIN_OBJECT_SOURCE_MAIN = $(MAIN_OBJECT_NAME_MAIN).cpp$/;"	m
+Merge2	./binary_search_tree_main.cpp	/^void Merge2(const int low, const int mid, const int high, int* S){$/;"	f
+MergeSort2	./binary_search_tree_main.cpp	/^void MergeSort2(const int low, const int high, int* S){$/;"	f
+MoveArray	./binary_search_tree_main.cpp	/^void MoveArray(const int* from_arr, int* to_arr, const int to_size, const int to_begin_index, const int from_begin_index){$/;"	f
+PostOrderTraverseEngine	./binary_search_tree.cpp	/^void BST::PostOrderTraverseEngine(BSTNode* current_node){$/;"	f	class:BST
+PostOrderTraversePrint	./binary_search_tree.cpp	/^void BST::PostOrderTraversePrint(){$/;"	f	class:BST
+PreOrderTraverseEngine	./binary_search_tree.cpp	/^void BST::PreOrderTraverseEngine(BSTNode* current_node){$/;"	f	class:BST
+PreOrderTraversePrint	./binary_search_tree.cpp	/^void BST::PreOrderTraversePrint(){$/;"	f	class:BST
+PrintArray	./binary_search_tree_main.cpp	/^void PrintArray(const int size, const int* arr, const std::string arr_name){$/;"	f
+Search	./binary_search_tree.cpp	/^void BST::Search(const int key, BSTNode* &return_node, BSTNode* &return_parent_node){$/;"	f	class:BST
+SearchInorderPreDecessorOfBiggestPrint	./binary_search_tree.cpp	/^void BST::SearchInorderPreDecessorOfBiggestPrint(){$/;"	f	class:BST
+SearchInorderSuccessorOfSmallestPrint	./binary_search_tree.cpp	/^void BST::SearchInorderSuccessorOfSmallestPrint(){$/;"	f	class:BST
+SearchLeftMostEngine	./binary_search_tree.cpp	/^BSTNode* BST::SearchLeftMostEngine(BSTNode* current_node){$/;"	f	class:BST
+SearchLeftMostPrint	./binary_search_tree.cpp	/^void BST::SearchLeftMostPrint(){$/;"	f	class:BST
+SearchRightMostEngine	./binary_search_tree.cpp	/^BSTNode* BST::SearchRightMostEngine(BSTNode* current_node){$/;"	f	class:BST
+SearchRightMostPrint	./binary_search_tree.cpp	/^void BST::SearchRightMostPrint(){$/;"	f	class:BST
+_BINARY_SEARCH_TREE_H_	./include/binary_search_tree.h	2;"	d
+key	./include/binary_search_tree.h	/^        int key;$/;"	m	class:BSTNode
+left_child	./include/binary_search_tree.h	/^        BSTNode* left_child;$/;"	m	class:BSTNode
+main	./binary_search_tree_main.cpp	/^int main(){$/;"	f
+parent	./include/binary_search_tree.h	/^        BSTNode* parent;$/;"	m	class:BSTNode
+right_child	./include/binary_search_tree.h	/^        BSTNode* right_child;$/;"	m	class:BSTNode
+root	./include/binary_search_tree.h	/^        BSTNode* root;$/;"	m	class:BST
+size_of_tree	./include/binary_search_tree.h	/^        int size_of_tree;$/;"	m	class:BST
+~BST	./binary_search_tree.cpp	/^BST::~BST(){$/;"	f	class:BST

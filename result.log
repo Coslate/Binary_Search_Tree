@@ -1,0 +1,70 @@
+rm -rf ../exec_output/binary_search_tree_main.o
+rm -rf ../exec_output/binary_search_tree.o
+rm -rf ./tags
+g++ -g -Wall -O3  -c binary_search_tree.cpp -I ./include -o ../exec_output/binary_search_tree.o
+/usr/local/bin/ctags -R ./*
+/usr/local/bin/ctags -a ./include/*
+g++ -g -Wall -O3  -I ./include ../exec_output/binary_search_tree.o binary_search_tree_main.cpp -o ../exec_output/binary_search_tree_main.o
+../exec_output/binary_search_tree_main.o
+InsertArbitrary 20 5 55 80 1 6 40 done
+tree_size = 7
+---------------In-order Traversal----------------
+1 5 6 20 40 55 80 
+---------------Pre-order Traversal----------------
+20 5 1 6 55 40 80 
+---------------Post-order Traversal----------------
+1 6 5 40 80 55 20 
+---------------Level-order Traversal----------------
+20 5 55 1 6 40 80 
+---------------Find Smallest----------------
+smallest = 1
+---------------Find Biggest----------------
+biggest = 80
+---------------Find Successor Smallest----------------
+successor of smallest = 5
+---------------Find PreDecessor Biggest----------------
+predecessor of biggest = 55
+---------------Delete 20----------------
+In-order Traversal : 
+1 5 6 40 55 80 
+Level-order Traversal : 
+40 5 55 1 6 80 
+tree_size = 6
+---------------Delete 100----------------
+cannot find the node with key = 100
+In-order Traversal : 
+1 5 6 40 55 80 
+Level-order Traversal : 
+40 5 55 1 6 80 
+tree_size = 6
+---------------Delete 5----------------
+In-order Traversal : 
+1 6 40 55 80 
+Level-order Traversal : 
+40 6 55 1 80 
+tree_size = 5
+---------------Delete 80----------------
+In-order Traversal : 
+1 6 40 55 
+Level-order Traversal : 
+40 6 55 1 
+tree_size = 4
+---------------Insert 100 & 41 & 33----------------
+In-order Traversal : 
+1 6 33 40 41 55 100 
+Level-order Traversal : 
+40 6 55 1 33 41 100 
+tree_size = 7
+---------------Constructing Balence BST using sorting----------------
+---before MergeSort2---
+S = [389, 299, 593, 976, 154, 902, 167, 904, 833, 74]
+---after MergeSort2---
+S = [74, 154, 167, 299, 389, 593, 833, 902, 904, 976]
+---------------In-order Traversal----------------
+74 154 167 299 389 593 833 902 904 976 
+---------------Pre-order Traversal----------------
+833 299 154 74 167 593 389 904 902 976 
+---------------Post-order Traversal----------------
+74 167 154 389 593 299 902 976 904 833 
+---------------Level-order Traversal----------------
+833 299 904 154 593 902 976 74 167 389 
