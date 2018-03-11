@@ -3,7 +3,7 @@
 !_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+!_TAG_PROGRAM_VERSION	5.8	//
 BST	./include/binary_search_tree.h	/^        BST() : root(NULL), size_of_tree(0){};$/;"	f	class:BST
 BST	./include/binary_search_tree.h	/^class BST{$/;"	c
 BSTNode	./include/binary_search_tree.h	/^        BSTNode() : key(0), parent(NULL), left_child(NULL), right_child(NULL){};$/;"	f	class:BSTNode
@@ -48,7 +48,7 @@ SearchLeftMostEngine	./binary_search_tree.cpp	/^BSTNode* BST::SearchLeftMostEngi
 SearchLeftMostPrint	./binary_search_tree.cpp	/^void BST::SearchLeftMostPrint(){$/;"	f	class:BST
 SearchRightMostEngine	./binary_search_tree.cpp	/^BSTNode* BST::SearchRightMostEngine(BSTNode* current_node){$/;"	f	class:BST
 SearchRightMostPrint	./binary_search_tree.cpp	/^void BST::SearchRightMostPrint(){$/;"	f	class:BST
-_BINARY_SEARCH_TREE_H_	./include/binary_search_tree.h	2;"	d
+_BINARY_SEARCH_TREE_H_	./include/binary_search_tree.h	/^#define _BINARY_SEARCH_TREE_H_$/;"	d
 key	./include/binary_search_tree.h	/^        int key;$/;"	m	class:BSTNode
 left_child	./include/binary_search_tree.h	/^        BSTNode* left_child;$/;"	m	class:BSTNode
 main	./binary_search_tree_main.cpp	/^int main(){$/;"	f
